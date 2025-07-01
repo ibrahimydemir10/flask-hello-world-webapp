@@ -33,6 +33,6 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'ibrahim-flask-app'
-        slot-name: 'production'
+        slot-name: 'test'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_e6706b6522c04228b7ce6922e5f6b60d }}
         package: ./app.zip
